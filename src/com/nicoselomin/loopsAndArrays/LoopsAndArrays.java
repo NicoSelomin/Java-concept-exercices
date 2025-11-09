@@ -10,6 +10,11 @@ public class LoopsAndArrays {
         */
         int[] intArray = new int[3];
 
+        // fill it with the number `4`
+        for (int i = 0; i < intArray.length; i++) {
+            intArray[i] = 4;
+        }
+
         for (int i = 0; i < intArray.length; i++) {
             System.out.println("Index" + i + ": " + intArray[i]);
         }
