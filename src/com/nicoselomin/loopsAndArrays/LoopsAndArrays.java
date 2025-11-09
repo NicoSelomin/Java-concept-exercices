@@ -15,6 +15,9 @@ public class LoopsAndArrays {
             intArray[i] = 4;
         }
 
+        // reassign the second value in the array to the number `17`
+        intArray[1] = 17;
+
         for (int i = 0; i < intArray.length; i++) {
             System.out.println("Index" + i + ": " + intArray[i]);
         }
